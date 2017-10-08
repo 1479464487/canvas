@@ -1,0 +1,44 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	margin: 10px auto;
+}
+
+#canvas {
+	border: 1px solid #000;
+}
+
+#top {
+	width: 100px;
+	height: 500px;
+	border: 1px solid #000;
+	float: left;
+
+	margin-left: 380px;
+	border-right: none;
+}
+
+#canvas_color,#canvas_brushs,#canvas_lines, #canvas_fillRect,#canvas_strokeRect,#canvas_fillArc,#canvas_strokeArc,#canvas_clear,#canvas_clears{
+	width: 100px;
+	height: 40px;
+	background: #ccc;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+}
+
+#canvas_color,#canvas_brushs,#canvas_fillRect,#canvas_strokeRect,#canvas_fillArc,#canvas_strokeArc,#canvas_lines,#canvas_clear,#canvas_clears{
+	margin-top: 14px;
+	background: #00a38b;
+}
+
+#error {
+	font-size: 2px;
+}
+
+.font input{font-size:14px;}
+
+.top .grea{background:#aaa;}
