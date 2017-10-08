@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>电脑画板</title>
+	<link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+	<canvas id="canvas" width="500" height="500">您的浏览器不支持canvas</canvas>
+	<!-- <div id="control"> -->
+	<div id="top">
+		<div id="canvas_color">
+			<input type="color" name="" id="colorSelect" value="" />
+		</div>
+		<div id="canvas_brushs">
+			<!-- <div id="canvas_brush"> -->
+			<div class="font" id="font">
+                <input type="button" value="细" id="xi" style=""/>
+				<input type="button" value="中" id="zhong" class="grea"/>
+				<input type="button" value="粗" id="cu"/>
+			</div>
+		</div>
+		<div id="canvas_fillRect">实心矩形</div>
+		<div id="canvas_strokeRect">空心矩形</div>
+		<div id="canvas_fillArc">实心圆</div>
+		<div id="canvas_strokeArc">空心圆</div>
+		<div id="canvas_lines">画线</div>
+		<div id="canvas_clear">橡皮擦</div>
+		<div id="canvas_clears">清空</div>
+	</div>
+</body>
+<script type="text/javascript" src="./JS/index.js"></script>
+</html>
